@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.top-left {
+  display: flex;
+  margin-left: 5%;
+}
+
+.top-right {
+  display: flex;
+  margin-right: 5%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content p {
+  font-size: 35px;
+}
+
+.left-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  padding: 35px;
+}
+
+.right-box {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  line-height: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.google-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.google-picture {
+  display: flex;
+
+}
+
+.google-input {
+  display: flex;
+  padding: 5px;
+}
+
+.google-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
