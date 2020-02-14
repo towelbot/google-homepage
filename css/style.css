@@ -1,11 +1,8 @@
 .header {
   display: flex;
-  justify-content: space-between;
-}
-
-.header a {
-  text-decoration: none;
-  font-size: 45px;
+  justify-content: center;
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
 }
 
 body {
@@ -27,21 +24,55 @@ body {
   justify-content: center;
 }
 
+.google-picture {
+  padding-top: 109px;
+  text-align: center;
+}
+
+.searchform {
+  margin-top: 25px;
+}
+
+#searchfield input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 30px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 5px;
+
+  font: 16px arial,sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+}
+
+input.blergh:focus {
+  outline-width: 0;
+}
+
+.searchbox {
+  padding-top: 7px;
+  padding-left: 6px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 40px;
+  width: 482px;
+}
+
+.glass .microphone {
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
 .content p {
   font-size: 35px;
-}
-
-.left-box {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  padding: 35px;
-}
-
-.right-box {
-  display: flex;
-  justify-content: flex-end;
-  margin: 25px;
 }
 
 .footer {
@@ -84,7 +115,7 @@ body {
 
 .google-picture {
   display: flex;
-
+  justify-content: center;
 }
 
 .google-input {
